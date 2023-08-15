@@ -16,5 +16,5 @@ move_uploaded_file($file_tmp, '../foto/'.$images .'.' .$ekstensi);
 $query="INSERT INTO kegiatan SET id_kegiatan='$id',nama_kegiatan='$nk',desc_kegiatan='$dk',tgl_kegiatan='$tgl', foto_kegiatan='foto/$images.$ekstensi'";
 mysqli_query($host, $query);
 
-header("location:dashboard.php?showAlert=true");
+header("location:dashboard.php");
 ?>
