@@ -238,7 +238,6 @@ $row = mysqli_fetch_array($kegiatan);
 
               document.getElementById("day").textContent = "🕓 " +dayName +", " + tgl;;
 
-              console.log(tgl)
           }
 
           // Panggil fungsi displayDayFromDate saat halaman selesai dimuat
